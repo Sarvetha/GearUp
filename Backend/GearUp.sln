@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GearUp", "GearUp.csproj", "{29F0C8A1-34E5-4A92-85C2-E5E8F2F4CB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29F0C8A1-34E5-4A92-85C2-E5E8F2F4CB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F0C8A1-34E5-4A92-85C2-E5E8F2F4CB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F0C8A1-34E5-4A92-85C2-E5E8F2F4CB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F0C8A1-34E5-4A92-85C2-E5E8F2F4CB32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {872E841E-E16F-4F5F-96E9-CC4AA573B74A}
+	EndGlobalSection
+EndGlobal

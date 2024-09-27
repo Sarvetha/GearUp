@@ -1,0 +1,6 @@
+@GearUp_HostAddress = http://localhost:5263
+
+GET {{GearUp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
