@@ -6,9 +6,10 @@ namespace GearUp.Services.IService
 {
     public interface ICartInterface
     {
-        Task<IEnumerable<CartItemResponseModel>> GetCartItemsAsync(int userId);
-        Task<CartItemResponseModel> AddItemToCartAsync(int productId, int userId);
-        Task<CartItemResponseModel> UpdateItemQuantityAsync(int productId, int userId, int quantity);
-        Task<bool> RemoveItemFromCartAsync(int productId, int userId);
+        Task<ActionResult<ApiResponse<IEnumerable<CartItemResponseModel>>>> GetAllCartItems(int userId);
+        Task<ActionResult<ApiResponse<CartItemResponseModel>>> AddItemToCartAsync(int productId, int userId, int quantity);
+        Task<ActionResult<ApiResponse<CartItemResponseModel>>> UpdateItemQuantityAsync(int productId, int userId, int quantity);
+        Task<ActionResult<ApiResponse<CartItemResponseModel>>> RemoveItemFromCartAsync(int productId, int userId, int quantity);
+        Task<ActionResult<ApiResponse<CartItemResponseModel>>> DeleteItemFromCartAsync(int productId, int userId);
     }
 }

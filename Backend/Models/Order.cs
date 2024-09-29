@@ -7,11 +7,11 @@ namespace GearUp.Models
         [Key]
         public int OrderId { get; set; }
         public int UserId { get; set; }
-        public DateTime OrderDateTime { get; set; }
+        public int CartId { get; set; }
         public decimal TotalAmount { get; set; }
-
-        // Navigation property
+        public DateTime OrderDateTime { get; set; }
+        public string DeliveryAddress { get; set; }
         public User User { get; set; }
-        public ICollection<OrderItem> OrderItems { get; set; }
+        public Cart Cart { get; set; }
     }
 }

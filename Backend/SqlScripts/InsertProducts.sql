@@ -1,4 +1,4 @@
-USE [GearUp]
+USE [GearUpDb]
 GO
 
 INSERT INTO [dbo].[Products]

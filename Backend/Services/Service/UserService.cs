@@ -26,7 +26,8 @@ namespace GearUp.Services.Service
                     FirstName = user.FirstName,
                     LastName = user.LastName,
                     Email = user.Email,
-                    Address = user.Address
+                    Address = user.Address,
+                    PhoneNumber = user.PhoneNumber
                 };
 
                 _context.Users.Add(addUser);

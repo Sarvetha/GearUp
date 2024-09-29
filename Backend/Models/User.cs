@@ -16,9 +16,8 @@ namespace GearUp.Models
         [Required(ErrorMessage = "Please Enter Email")]
         [EmailAddress(ErrorMessage = "Please Mention Valid Email")]
         public string Email { get; set; }
-
-        [Required(ErrorMessage = "Please Enter The Permanent Address")]
         public string Address { get; set; }
+        public string PhoneNumber { get; set; }
 
         //Navigation property
         public ICollection<Cart> Carts { get; set; }
